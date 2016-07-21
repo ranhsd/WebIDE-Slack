@@ -62,7 +62,7 @@ sap.ui.controller("slack.view.Pane", {
 					});
 				} else {
 					// if the token is invalid, present no data  
-					this.displayNoData();
+					that.displayNoData();
 				}
 			});
 		}

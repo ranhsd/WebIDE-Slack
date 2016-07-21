@@ -1,0 +1,124 @@
+.sc-main-layout {  
+    background-color: #3f5161;  
+}  
+.row-repeater {  
+    margin-top: 10px;  
+    height: 100%;  
+}  
+.bl-top-content {  
+  background-color: #3f5161;  
+}  
+.bl-center-content {  
+  background-color: white;  
+}  
+.bl-bottom-content {  
+  background-color: white;  
+}  
+.slack-icon  {  
+  /*position: absolute;*/  
+  /*top: 50%;*/  
+  /*transform: translateY(-50%);*/  
+  /*margin: 0 10px;*/  
+}  
+.slack-title-tv {  
+  color: white;  
+  font-size: 12px;  
+  line-height: 32px;  
+  margin-left: 15px;  
+}  
+.top-layout {  
+  padding: 10px;  
+  width: "100%";  
+}  
+.slack-channels-cb {  
+  background-color: transparent;  
+  border: 1px solid white;  
+  color: #ab9ba9;  
+  margin-top: 10px;  
+}  
+.slack-channel-listitem {  
+}  
+.row-layout {  
+    margin-bottom: 2px;  
+    padding: 5px;  
+    margin-left: 2px;  
+    margin-right: 10px;  
+    border-bottom: 1px solid #DDD;  
+    width: 100%;  
+}  
+.message-content {  
+    height: auto !important;  
+    margin-right: 5px !important;  
+    color: #3d3c40;  
+    font-size: 13px;  
+    word-wrap: break-word !important;  
+    display: inline-block;  
+}  
+.new-post-ta {  
+  border: 2px solid #E0E0E0;  
+  font-size: 13px;  
+  line-height: 1.0rem;  
+  overflow-y: hidden !important;  
+  overflow-x: hidden;  
+  color: #3d3c40;  
+  max-height: 45px !important;  
+  width: 95% !important;  
+  margin-top: 10px !important;  
+  padding-right: 40px !important;  
+  outline: 0 !important;  
+  -webkit-box-shadow: none;  
+    -moz-box-shadow: none;  
+    box-shadow: none;  
+    background-color: transparent;  
+}  
+.post-abs-layout {  
+  width: 100% !important;  
+}  
+.user-profile-picture {  
+    margin-right: 10px;  
+    border-radius: 5px;  
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;  
+    box-shadow: 0 0 1px rgba(255, 255, 255, .8);  
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .8);  
+    -moz-box-shadow: 0 0 1px rgba(255, 255, 255, .8);  
+    transition: opacity .1s ease-out 0s;  
+    opacity: .8;  
+}  
+.created-by-name-tv {  
+    margin-top: -3px;  
+    color: #3d3c40;  
+    font-size: 14px;  
+    text-transform: capitalize;  
+}  
+.created-at-tv {  
+  color: #babbbf;  
+  font-size: 11px;  
+  margin-top: -5px;  
+}  
+.settings-button {  
+  position: absolute;  
+  right: 20px;  
+  top: 10px;  
+  color: white;  
+  font-size: 13px;  
+}  
+.auth-token-link {  
+  font-size: 13px;  
+  margin-top: 5px;  
+}  
+.auth-token-text-field {  
+  width: 250px !important;  
+}  
+.token-h-layout {  
+  width: 100% !important;  
+}  
+.remove-token-button {  
+  margin-left: 10px;  
+  font-color: red !important;  
+}  
+.get-started-button {  
+  color: #2a80b9;  
+  font-weight: 600;  
+  font-size: 14px;  
+}  

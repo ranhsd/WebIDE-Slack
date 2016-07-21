@@ -1,0 +1,22 @@
+{
+	"name": "slack.service.Pane",
+	"description": "Right Pane",
+	"extends": ["sap.watt.common.service.ui.Part"],
+	"methods": {
+
+		"isAvailable": {
+			"params": [{
+				"name": "oDocument",
+				"type": "object"
+			}],
+			"returns": "object"
+		},
+		"isEnabled": {
+			"params": [{
+				"name": "oDocument",
+				"type": "object"
+			}],
+			"returns": "object"
+		}
+	}
+}

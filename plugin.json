@@ -1,0 +1,72 @@
+{
+	"name": "slack",
+	"description": "slack.com in WebIDE",
+	"i18n": "slack/i18n/i18n",
+	"requires": {
+		"services": [
+			"usernotification",
+			"log",
+			"command",
+			"commandGroup",
+			"perspective",
+			"content",
+			"resource"
+		]
+	},
+	"provides": {
+		"services": {
+			"rightpane": {
+				"implements": "slack.service.Pane",
+				"module": "slack/service/Pane"
+			}
+		},
+
+		"interfaces": {
+			"slack.service.Pane": "slack/service/Pane"
+		}
+	},
+	"configures": {
+		"services": {
+			"rightpane:styles": [{
+				"uri": "slack/css/style.css"
+			}],
+			"command:commands": [{
+				"id": "slack.toggle",
+				"label": "ToggleChat",
+				"service": {
+					"implements": "sap.watt.common.service.ide.AbstractUIPartToggler",
+					"module": "sap.watt.common.perspective/command/AbstractUIPartToggler",
+					"configuration": {
+						"id": "slack.toggle",
+						"service": "@rightpane",
+						"perspective": "development"
+					}
+				},
+				"available": true,
+				"icon": "slack/img/slack_21.png"
+			}],
+
+			"commandGroup:groups": [
+
+			],
+
+			"commandGroup:items": [{
+				"parent": "applicationRightSidebar",
+				"command": "slack.toggle",
+				"prio": "100",
+				"icon": ""
+			}],
+			"perspective:views": [{
+				"id": "rightpane",
+				"service": "@rightpane",
+				"area": "right",
+				"visible": "false",
+				"cssclass": "explorer splitterContainer"
+			}]
+		}
+	},
+	"subscribes": {
+
+	}
+
+}

@@ -323,7 +323,6 @@ sap.ui.controller("slack.view.Pane", {
 					that.getView().oAuthTokenTextField.setValue("");
 				}
 			});
-			// xoxp-3704342075-5154985101-5155004893-9964df  
 		} else if (sValue.length === 0) {
 			if (this._oStorage.get("slackAuthenticationToken")) {
 				this._oStorage.remove("slackAuthenticationToken");
